@@ -1,4 +1,4 @@
-Problem: I don't know zeromq and want to learn the simplest usage, show me some code
+Problem:
 ==============================================
 
 The simplest example is client-server. Client sends "Hello" and server replies with "World".
@@ -27,13 +27,9 @@ Server steps:
 
 Implementations:
 ===================
-* [GOCZMQ](https://github.com/zeromq/cookbook/blob/master/helloword/code/goczmq/simple_helloworld_test.go)
-* [NetMQ](https://github.com/zeromq/cookbook/blob/master/helloword/code/netmq/HelloWorld.cs)
-* [PyZMQ](https://github.com/zeromq/cookbook/blob/master/helloword/code/pyzmq/helloword)
+* [PyZMQ](https://github.com/zeromq/cookbook/blob/master/eventsourcing/code/pyzmq/)
 
 References:
 ==============
-* [NetMQ](http://netmq.readthedocs.org/en/latest/)
-* [goczmq](https://github.com/zeromq/goczmq)
-* [PyZMQ](http://learning-0mq-with-pyzmq.readthedocs.org/en/latest/pyzmq/patterns/client_server.html)
-* [PyZMQ Examples](https://github.com/zeromq/pyzmq/blob/master/examples/)
+* [GetEventStore](http://docs.geteventstore.com/introduction/event-sourcing-basics/)
+* [Event Sourcing](http://www.martinfowler.com/eaaDev/EventSourcing.html)

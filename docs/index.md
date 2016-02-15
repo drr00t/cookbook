@@ -2,5 +2,5 @@
 
 Recipes:
 
+* [Event Sourcing](eventsourcing.md)
 * [Hello World](helloworld.md)
-* [CQRS](cqrs.md)
